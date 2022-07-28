@@ -14,7 +14,7 @@ services:
     ports:
       - '80:8069'
     volumes:
-      - 'odoo_data:/bitnami/odoo'
+      - 'odoo_data:/bitnami/odoo3'
     depends_on:
       - postgresql
     environment:

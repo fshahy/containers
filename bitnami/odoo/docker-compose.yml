@@ -26,6 +26,4 @@ services:
       - ODOO_DATABASE_NAME=bitnami_odoo
 volumes:
   postgresql_data:
-    driver: local
   odoo_data:
-    driver: local
